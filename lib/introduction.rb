@@ -1,10 +1,10 @@
-def #introduction
+def #introduction(name)
  puts "Hi, my name is #{name}."
 end
 
 #introduction(Mary)
 
-def #introduction_with_langauge
+def #introduction_with_langauge(name, language)
  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
  
@@ -12,7 +12,7 @@ end
  
  #introduction_with_langauge(Tom, React)
  
- def #introduction_with_langauge_optional
+ def #introduction_with_langauge_optional(name, language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}"
 end
 
